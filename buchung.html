@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminbuchung</title>
+    <link rel="stylesheet" href="buchung.sytle.css">
+</head>
+<body>
+    <header>
+        <h1>Terminbuchung</h1>
+    </header>
+    <main>
+        <input type="date" id="date">
+        <select name="time" id="time">
+            <option>09:00 Uhr</option>
+            <option>10:00 Uhr</option>
+        </select>
+        <input type="text" id="name"> 
+        <button onclick="book()">Termin buchen</button>
+    </main>
+    <footer></footer>
+</body>
+<script type="module" src="buchung.app.js"></script>
+</html>
