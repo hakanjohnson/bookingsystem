@@ -1,0 +1,8 @@
+.sidebar {
+    background-color: #6c6ba2;
+    color: #ffffff;
+    min-width: min-content;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}

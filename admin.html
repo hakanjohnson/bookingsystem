@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminbuchung</title>
+    <link rel="stylesheet" href="admin.css">
     <link rel="stylesheet" href="buchung.sytle.css">
+    <link rel="stylesheet" href="elements.css">
+    <link rel="stylesheet" href="components.css">
 </head>
 <body>
-    <header>
-        <h1>Terminbuchung - Übersicht</h1>
-    </header>
+    <div class="sidebar">
+        <h1>Administration</h1>
+        <h3 id="greet" ></h3>
+        <div class="menu">
+            <ul>
+                <li><img src="img/home.svg" alt="">Dashboard</li>
+                <li><img src="img/calender.svg" alt="">Termine</li>
+                <li><img src="img/setting.svg" alt="">Einstellungen</li>
+            </ul>
+        </div>
+    </div>
     <main>
+        <h2 class="listheader">Gebuchte Termine</h2>
         <div id="termine"></div>
+        <h2 class="listheader">Kurse</h2>
+        <div id="kurse"></div>    
     </main>
     <footer></footer>
 </body>
